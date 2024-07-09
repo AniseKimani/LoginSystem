@@ -1,0 +1,267 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url(LPfinal.jpg);
+    border-style: solid;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #931a1a;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 1em;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    background-color: #6d0f0f;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 2em 0;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #090909;
+}
+
+.catch {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+}
+
+#catch2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+#BTNS {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    background-color: #8b0000;
+    color: #fff;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #a52a2a;
+    transform: scale(1.05);
+}
+
+#slider {
+    overflow: hidden;
+    width: 80%;
+    margin: 2em auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    float: left;
+    width: 20%;
+    border-radius: 10px;
+}
+
+@keyframes slider {
+    0% { left: 0; }
+    20% { left: 0; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+.FOLDER {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.folder1, .folder2 {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.album {
+    border: 5px solid #106e6e;
+    border-radius: 5%;
+    background-color: #008080;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album:hover {
+    background-color: #074646;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.album a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.image2 {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+
+.gallery {
+    padding: 1em;
+}
+
+.word {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}
+
+.word2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.reviews {
+    padding: 2em;
+    background-color: #fdf5e6;
+    border-radius: 10px;
+    margin: 2em auto;
+    max-width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+blockquote {
+    margin: 1em 0;
+    padding: 1em;
+    background: #fff;
+    border-left: 5px solid #ff7f50;
+    font-style: italic;
+    color: #666;
+    position: relative;
+}
+
+blockquote::before {
+    content: open-quote;
+    font-size: 4em;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    color: #ff7f50;
+}
+
+blockquote p {
+    display: inline;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    color: #ff7f50;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+
+footer {
+    padding: 2em;
+    background-color: #074646;
+    color: #fff;
+    text-align: center;
+}
+
+#endlogo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+}
+
+#p1 {
+    margin: 1em 0;
+    font-size: 0.9em;
+}
+
+#l2 {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+#l2 li {
+    display: inline;
+    margin: 0 1em;
+}
+
+#l2 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#l2 a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #ff7f50;
+}
+
+footer p {
+    margin: 0.5em 0;
+}

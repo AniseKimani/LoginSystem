@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(247, 210, 163);
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+form {
+    width: 100%;
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+form input[type="file"] {
+    padding: 3px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(186, 77, 77);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+#p2, #lin {
+    text-align: center;
+    padding-bottom: 20px;
+}

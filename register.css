@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(247, 210, 163);
+    font-family: 'Roboto';
+}
+.signup{
+    width: 40%;
+    height: 45%;
+    margin: auto;
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    padding-top: 10%;
+}
+form{
+    width: 75%;
+    margin-left: 10%;
+}
+form label{
+    display: flex;
+    margin-top: 10%;
+    font-size: medium;
+}
+form input, form select option {
+    width: 100%;
+    padding: 5%;
+    border: none;
+    border: 1px solid burlywood;
+    border-radius: 5%;
+    outline: none;
+    box-sizing: border-box;
+}
+.btn{
+    width:70%;
+    height:20%;
+    margin-top: 10%;
+    background-color: rgb(186, 77, 77);
+    color: black;
+}
+#p2{
+    text-align: center;
+    padding-bottom: 10%;
+}
+#lin{
+    text-align: center;
+    padding-bottom: 10%;
+}
+.login{
+    width: 40%;
+    height: 45%;
+    margin: auto;
+    background-color: azure;
+}
+.btn:hover{
+    transform: scale(120%);
+}
